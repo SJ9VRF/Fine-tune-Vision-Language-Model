@@ -21,3 +21,34 @@ cd vilt-vqa
 pip install -r requirements.txt
 ```
 
+
+3. **Download Data**
+Ensure that your data files are in the `data/` directory as specified in `settings.py`.
+
+## Usage
+
+### Training the Model
+
+To train the model, run:
+```bash
+python train.py
+```
+
+This script will train the model using the configurations specified in `config/settings.py`.
+
+### Making Predictions
+
+To perform inference with a pre-trained model, run:
+
+```bash
+python infer.py --image_path 'path/to/image.jpg' --question 'What is in the picture?'
+```
+
+This will load the trained model and output the top predictions for the specified image and question.
+
+## Configuration
+
+Edit `config/settings.py` to modify paths, model parameters, and other settings like device configuration for GPU acceleration.
+
+
+
