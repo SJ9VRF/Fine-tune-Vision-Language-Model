@@ -1,3 +1,5 @@
+# Script to train the model
+
 import torch
 from data.dataset import VQADataset
 from models.vilt_model import initialize_model
