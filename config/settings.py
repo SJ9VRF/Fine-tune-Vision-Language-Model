@@ -31,3 +31,10 @@ TOP_K_ANSWERS = 5
 # Other settings
 VERBOSE_LOGGING = True
 
+"""
+from config.settings import BATCH_SIZE
+
+# Use BATCH_SIZE in your DataLoader
+train_loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
+
+"""
