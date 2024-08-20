@@ -1,3 +1,4 @@
+# Handles loading and processing of VQA data
 import json
 from os import listdir
 from os.path import isfile, join
